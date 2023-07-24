@@ -70,13 +70,19 @@
   justify-content: center;
   margin-top: 300px;
 }
-.vacals-list{
-  margin:0px;
+.vacals-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
   margin-left: 5px;
   text-align: center;
   justify-content: center;
-
+  margin-right: 50px;
+  margin-top: 200px;
 }
+
 .list{
   font-size: 30px;
   list-style-type: none;
